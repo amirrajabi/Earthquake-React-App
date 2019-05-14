@@ -1,0 +1,26 @@
+.panel {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    flex-direction: column;
+}    
+
+p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
